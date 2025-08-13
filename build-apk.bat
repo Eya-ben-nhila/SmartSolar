@@ -20,11 +20,11 @@ if %ERRORLEVEL% EQU 0 (
     set TIMESTAMP=%date:~-4,4%%date:~-10,2%%date:~-7,2%_%time:~0,2%%time:~3,2%%time:~6,2%
     set TIMESTAMP=%TIMESTAMP: =0%
     
-    echo Copying APK to releases folder...
-    copy "app\build\outputs\apk\debug\app-debug.apk" "releases\SmartSolar-v1.0-debug-%TIMESTAMP%.apk"
+    echo Copying APK to APK releases folder...
+    copy "app\build\outputs\apk\debug\app-debug.apk" "APK releases\SmartSolar-v1.0-debug-%TIMESTAMP%.apk"
     
     echo.
-    echo APK copied to: releases\SmartSolar-v1.0-debug-%TIMESTAMP%.apk
+    echo APK copied to: APK releases\SmartSolar-v1.0-debug-%TIMESTAMP%.apk
     echo.
     echo You can now:
     echo 1. Install the APK on your device

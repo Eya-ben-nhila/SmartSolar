@@ -62,7 +62,7 @@ The app includes the following main screens:
 
 ### APK Installation
 
-Download the latest APK from the releases section or build it yourself:
+Download the latest APK from the APK releases section or build it yourself:
 
 ```bash
 ./gradlew assembleDebug
