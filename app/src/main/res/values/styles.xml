@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Error text appearance for input fields -->
+    <style name="ErrorTextAppearance" parent="TextAppearance.Design.Error">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF5252</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+
+    <!-- Custom text appearance for hint text -->
+    <style name="TextAppearance.App.Small" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingTop">2dp</item>
+    </style>
+    
+    <!-- Style for the text input layout -->
+    <style name="Widget.App.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@color/gray</item>
+        <item name="hintEnabled">true</item>
+        <item name="hintTextAppearance">@style/TextAppearance.App.Small</item>
+        <item name="errorTextAppearance">@style/ErrorTextAppearance</item>
+    </style>
+    
+    <!-- Style for menu items in the navigation menu -->
+    <style name="MenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

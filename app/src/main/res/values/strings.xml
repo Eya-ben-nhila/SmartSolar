@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">SmartSolar</string>
+    
+    <!-- Login Screen -->
+    <string name="Login">Login</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+    <string name="dont_have_an_account_sign_up">Don\'t have an account? <u>Sign Up</u></string>
+    
+    <!-- Menu -->
+    <string name="menu">Menu</string>
+    
+    <!-- Validation Messages -->
+    <string name="email_required">Email is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="password_required">Password is required</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="remember_me">Remember me</string>
+    
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="profile">User Profile</string>
+    
+    <!-- Notification Icons -->
+    <string name="warning_icon">Warning</string>
+    <string name="info_icon">Information</string>
+    <string name="success_icon">Success</string>
+    
+    <!-- Profile -->
+    <string name="profile_picture">Profile Picture</string>
+    <string name="profile_information">Profile Information</string>
+    <string name="change_password">Change Password</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="contact_support">Contact Support</string>
+    
+    <!-- Common UI -->
+    <string name="more">More</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="battery">Battery</string>
+    <string name="security">Security</string>
+    <string name="pump">Pump</string>
+    <string name="pv">PV</string>
+
+    <string name="thresholds">Thresholds</string>
+    <string name="charts">Charts</string>
+    <string name="system_on">System On</string>
+    <string name="system_off">System Off</string>
+    <string name="charging">Charging</string>
+    <string name="stopped_charging">Stopped charging</string>
+    <string name="not_charging">Not Charging</string>
+    <string name="connection_lost">Connection Lost</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="battery_level_high">High</string>
+    <string name="battery_level_medium">Medium</string>
+    <string name="battery_level_low">Low</string>
+    <string name="battery_level_critical">Critical</string>
+
+    
+    <!-- Signup -->
+    <string name="signup">SignUp</string>
+    <string name="create_account">Create Account</string>
+    <string name="terms_privacy">By continuing, you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="already_have_account">already have an account? sign in</string>
+    
+    <!-- Security -->
+    <string name="security_reports">Security Reports</string>
+    <string name="pump_vitesse">Pump Vitesse</string>
+    <string name="threat_exposure">Threat Exposure</string>
+    <string name="critical_threats">Critical Threats: 0 (BCVSS)</string>
+    <string name="medium_threats">Medium Threats: 1 (4CVSS)</string>
+    <string name="low_threats">Low Threats: 2 (2CVSS)</string>
+    <string name="system_health">System Health</string>
+    <string name="pump_vitesse_status">Pump Vitesse: 10C/6S</string>
+    <string name="anomalies_detected">Anomalies Detected: 2 (24h)</string>
+    
+    <!-- PV -->
+    <string name="pv_report">Pv Report</string>
+    <string name="weekly_summary">Weekly Summary</string>
+    <string name="total_kwh">Total: 420 kWh</string>
+    <string name="avg_day_kwh">Avg/Day: 60 kWh</string>
+    <string name="performance_alerts">Performance Alerts</string>
+    <string name="wednesday_alert">Wednesday: -12%</string>
+    
+    <!-- Pump -->
+    <string name="pump_state">Pump State</string>
+    <string name="pump_status_overview">Pump Status Overview</string>
+    <string name="current_power">Current Power:2000w</string>
+    <string name="seven_day_average">7-Day Average:1989w</string>
+    <string name="efficiency">Efficency:99.3%</string>
+    
+    <!-- Profile -->
+    <string name="john_doe">John Doe</string>
+    <string name="john_email">john.doe@example.com</string>
+    <string name="current_usage">Current Usage</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="account_settings">ACCOUNT SETTINGS</string>
+    <string name="personal_information">Personal Information</string>
+
+    
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="today">Today</string>
+    <string name="warning_system_overload">Warning: System Overload</string>
+    <string name="system_update_available">System Update Available</string>
+    <string name="backup_completed">Backup Completed</string>
+    <string name="download_report">Download Report</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="notification_overload_body">Your system is experiencing higher than normal load. Consider checking your devices.</string>
+    <string name="notification_update_body">A new system update is available. Update now for the latest features and improvements.</string>
+    <string name="notification_backup_body">Your system backup has been completed successfully.</string>
+    
+    <!-- Menu -->
+    <string name="dashboard_menu">Dashboard</string>
+    <string name="pump_state_display">Pump State Display</string>
+    <string name="battery_level_menu">Battery Level</string>
+    <string name="pvs_production_rate">PVs Production Rate</string>
+    <string name="security_state">Security State</string>
+    <string name="history_menu">History</string>
+    <string name="thresholds_menu">Thresholds</string>
+    
+    <!-- Dashboard Additional -->
+    <string name="solar_panel">Solar Panel</string>
+    <string name="high_energy_generating">High Energy Generating</string>
+    <string name="battery_percentage">67% Battery</string>
+    <string name="current_power_generation">Current Power Generation</string>
+    <string name="current_grid_power_supply">Current Grid Power Supply</string>
+    <string name="temperature">Temperature</string>
+    <string name="evse">EVSE</string>
+    <string name="load">Load</string>
+    
+    <!-- Thresholds -->
+    <string name="thresholds_title">Thresholds</string>
+    <string name="sensitivity_anti_theft">sensitivity of anti-theft system</string>
+    <string name="irrigation_schedules">Irrigation Schedules</string>
+    <string name="this_week">This week</string>
+    <string name="last_week">Last Week</string>
+    <string name="system_status_overview">System Status Overview</string>
+    <string name="pump_status_online">Pump Status :Online</string>
+    <string name="battery_level_percentage">Battery Level: 87%</string>
+    <string name="last_maintenance">Last Maintenance: Jul 15, 2024</string>
+    
+    <!-- Switch Buttons -->
+    <string name="switch_to_battery">Switch to Battery</string>
+    <string name="switch_to_pv">Switch to PV</string>
+    
+
+    <string name="battery_state">Battery Usage</string>
+    <string name="battery_levels_good">YOUR BATTERY LEVELS ARE ALL GOOD</string>
+    <string name="battery_voltage_label">Battery Voltage :</string>
+    <string name="charging_current_label">Charging Current :</string>
+    <string name="discharging_current_label">Discharging Current :</string>
+    
+    <!-- Home Activity -->
+    <string name="smart">Smart</string>
+    <string name="solar">Solar</string>
+    <string name="capacity">100KW capacity</string>
+    <string name="consumed">19KW consumed</string>
+    <string name="heading">EFFORTLESS SOLAR TRACKING FOR MAXIMUM EFFICIENCY</string>
+    <string name="description">Track energy output and efficiency with ease, anytime, anywhere</string>
+    <string name="swipe_hint">Swipe to Explore</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <!-- History / Menu / Profile common labels -->
+    <string name="table_of_events">Table Of Events</string>
+    <string name="date_hour">Date/Hour</string>
+    <string name="type">Type</string>
+    <string name="message">Message</string>
+    <string name="status">Status</string>
+    <string name="alert">Alert</string>
+    <string name="notification">Notification</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="unread">Unread</string>
+    <string name="resolved">Resolved</string>
+    <string name="completed">Completed</string>
+    <string name="operation">Operation</string>
+    <string name="scheduled_shutdown">Scheduled Shutdown</string>
+    <string name="alert_journal">Alert Journal</string>
+    <string name="help_support">HELP &amp; SUPPORT</string>
+    <string name="logout">LOGOUT</string>
+    <string name="overvoltage">Overvoltage</string>
+    <string name="battery_level_good_msg">Your Battery Level Is All Good</string>
+    <string name="pv_levels_low_msg">Your PVs Levels Are Low</string>
+    <string name="unread_alerts_count">Unread Alerts: 3</string>
+    <string name="critical_incidents">Critical Incidents (7d): 1</string>
+    <string name="pending_maintenances">Pending Maintenances: 2</string>
+
+    <!-- Subscriptions -->
+    <string name="subscriptions">Subscriptions</string>
+    <string name="choose_plan">Choose your plan</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="subscribe">Subscribe</string>
+
+    <!-- Pump UI enhancements -->
+    <string name="pump_online">Online</string>
+    <string name="performance">Performance</string>
+    <string name="controls">Controls</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+</resources>

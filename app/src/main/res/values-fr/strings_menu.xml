@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Accueil</string>
+    <string name="control">Contrôle</string>
+    <string name="history">Historique</string>
+    <string name="settings">Paramètres</string>
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="about_us">À propos de nous</string>
+</resources>
+

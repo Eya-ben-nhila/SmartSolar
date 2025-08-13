@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSolar</string>
+
+    <!-- Login Screen -->
+    <string name="Login">Connexion</string>
+    <string name="sign_in_to_continue">Connectez-vous pour continuer</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Numéro de téléphone</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="or_continue_with">Ou continuer avec</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+    <string name="dont_have_an_account_sign_up">Vous n avez pas de compte ? S inscrire</string>
+
+    <!-- Menu -->
+    <string name="menu">Menu</string>
+
+    <!-- Validation Messages -->
+    <string name="email_required">L e-mail est requis</string>
+    <string name="invalid_email">Veuillez entrer un e-mail valide</string>
+    <string name="password_required">Le mot de passe est requis</string>
+    <string name="password_too_short">Le mot de passe doit comporter au moins 6 caractères</string>
+    <string name="remember_me">Se souvenir de moi</string>
+
+    <!-- Common -->
+    <string name="back">Retour</string>
+    <string name="profile">Profil </string>
+
+    <!-- Notification Icons -->
+    <string name="warning_icon">Avertissement</string>
+    <string name="info_icon">Information</string>
+    <string name="success_icon">Succès</string>
+
+    <!-- Profile -->
+    <string name="profile_picture">Photo de profil</string>
+    <string name="profile_information">Informations du profil</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="faq">Foire aux questions</string>
+    <string name="contact_support">Contacter le support</string>
+
+    <!-- Common UI -->
+    <string name="more">Plus</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">Tableau de bord</string>
+    <string name="battery">Batterie</string>
+    <string name="security">Sécurité</string>
+    <string name="pump">Pompe</string>
+    <string name="pv">PV</string>
+    <string name="thresholds">Seuils</string>
+    <string name="charts">Graphiques</string>
+    <string name="system_on">Système activé</string>
+    <string name="system_off">Système désactivé</string>
+    <string name="charging">En charge</string>
+    <string name="stopped_charging">Charge arrêtée</string>
+    <string name="not_charging">Pas de charge</string>
+    <string name="connection_lost">Connexion perdue</string>
+    <string name="connected">Connecté</string>
+    <string name="disconnected">Déconnecté</string>
+    <string name="battery_level_high">Élevé</string>
+    <string name="battery_level_medium">Moyen</string>
+    <string name="battery_level_low">Faible</string>
+    <string name="battery_level_critical">Critique</string>
+
+    <!-- Signup -->
+    <string name="signup">Inscription</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="terms_privacy">En continuant, vous acceptez nos Conditions d utilisation et notre Politique de confidentialité.</string>
+    <string name="already_have_account">Vous avez déjà un compte ? connectez-vous</string>
+
+    <!-- Security -->
+    <string name="security_reports">Rapports de sécurité</string>
+    <string name="pump_vitesse">Vitesse de la pompe</string>
+    <string name="threat_exposure">Exposition aux menaces</string>
+    <string name="critical_threats">Menaces critiques : 0 (BCVSS)</string>
+    <string name="medium_threats">Menaces moyennes : 1 (4CVSS)</string>
+    <string name="low_threats">Menaces faibles : 2 (2CVSS)</string>
+    <string name="system_health">État du système</string>
+    <string name="pump_vitesse_status">Vitesse de la pompe : 10C/6S</string>
+    <string name="anomalies_detected">Anomalies détectées : 2 (24h)</string>
+
+    <!-- PV -->
+    <string name="pv_report">Rapport PV</string>
+    <string name="weekly_summary">Résumé hebdomadaire</string>
+    <string name="total_kwh">Total : 420 kWh</string>
+    <string name="avg_day_kwh">Moy/Jour : 60 kWh</string>
+    <string name="performance_alerts">Alertes de performance</string>
+    <string name="wednesday_alert" formatted="false">Mercredi : -12%</string>
+
+    <!-- Pump -->
+    <string name="pump_state">État de la pompe</string>
+    <string name="pump_status_overview">État de la pompe</string>
+    <string name="current_power">Puissance actuelle : 2000w</string>
+    <string name="seven_day_average">Moyenne 7 jours : 1989w</string>
+    <string name="efficiency" formatted="false">Efficacité : 99,3%</string>
+
+    <!-- Profile -->
+    <string name="john_doe">Jean Dupont</string>
+    <string name="john_email">jean.dupont@example.com</string>
+    <string name="current_usage">Utilisation actuelle</string>
+    <string name="battery_level">Niveau de batterie</string>
+    <string name="account_settings">PARAMÈTRES DU COMPTE</string>
+    <string name="personal_information">Informations personnelles</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="today">Aujourd hui</string>
+    <string name="warning_system_overload">Alerte : Surcharge du système</string>
+    <string name="system_update_available">Mise à jour système disponible</string>
+    <string name="backup_completed">Sauvegarde terminée</string>
+    <string name="download_report">Télécharger le rapport</string>
+    <string name="yesterday">Hier</string>
+    <string name="notification_overload_body">Votre système subit une charge supérieure à la normale. Pensez à vérifier vos appareils.</string>
+    <string name="notification_update_body">Une nouvelle mise à jour du système est disponible. Mettez à jour maintenant pour les dernières fonctionnalités et améliorations.</string>
+    <string name="notification_backup_body">La sauvegarde de votre système a été effectuée avec succès.</string>
+
+    <!-- Menu -->
+    <string name="dashboard_menu">Tableau de bord</string>
+    <string name="pump_state_display">Affichage de l etat de la pompe</string>
+    <string name="battery_level_menu">Niveau de batterie</string>
+    <string name="pvs_production_rate">Taux de production des PV</string>
+    <string name="security_state">État de la sécurité</string>
+    <string name="history_menu">Historique</string>
+    <string name="thresholds_menu">Seuils</string>
+
+    <!-- Dashboard Additional -->
+    <string name="solar_panel">Panneau solaire</string>
+    <string name="high_energy_generating">Forte production d energie</string>
+    <string name="battery_percentage" formatted="false">67% Batterie</string>
+    <string name="current_power_generation">Production d energie actuelle</string>
+    <string name="current_grid_power_supply">Alimentation actuelle du réseau</string>
+    <string name="temperature">Température</string>
+
+    <!-- Thresholds -->
+    <string name="thresholds_title">Seuils</string>
+    <string name="sensitivity_anti_theft">sensibilité du système antivol</string>
+    <string name="irrigation_schedules">Horaires d irrigation</string>
+    <string name="this_week">Cette semaine</string>
+    <string name="last_week">La semaine dernière</string>
+    <string name="system_status_overview">Vue d ensemble de l etat du système</string>
+    <string name="pump_status_online">État de la pompe : En ligne</string>
+    <string name="battery_level_percentage" formatted="false">Niveau de batterie : 87%</string>
+    <string name="last_maintenance">Dernière maintenance : 15 juil. 2024</string>
+
+    <!-- Switch Buttons -->
+    <string name="switch_to_battery">Passer à la batterie</string>
+    <string name="switch_to_pv">Passer au PV</string>
+
+    <string name="battery_state">Utilisation de la batterie</string>
+
+    <!-- Home Activity -->
+    <string name="smart">Smart</string>
+    <string name="solar">Solar</string>
+    <string name="capacity">Capacité 100KW</string>
+    <string name="consumed">19KW consommés</string>
+    <string name="heading">SUIVI SOLAIRE SANS EFFORT POUR UNE EFFICACITÉ MAXIMALE</string>
+    <string name="description">Suivez la production d energie et l efficacite avec simplicite, a tout moment, n importe ou</string>
+    <string name="swipe_hint">Balayez pour explorer</string>
+
+    <!-- Extras added for full coverage -->
+    <string name="evse">EVSE</string>
+    <string name="load">Charge</string>
+    <string name="battery_levels_good">VOS NIVEAUX DE BATTERIE SONT BONS</string>
+    <string name="battery_voltage_label">Tension de la batterie :</string>
+    <string name="charging_current_label">Courant de charge :</string>
+    <string name="discharging_current_label">Courant de décharge :</string>
+
+    <string name="sun">Dim</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mer</string>
+    <string name="thu">Jeu</string>
+    <string name="fri">Ven</string>
+    <string name="sat">Sam</string>
+
+    <string name="table_of_events">Table des evenements</string>
+    <string name="date_hour">Date/Heure</string>
+    <string name="type">Type</string>
+    <string name="message">Message</string>
+    <string name="status">Statut</string>
+    <string name="alert">Alerte</string>
+    <string name="notification">Notification</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="unread">Non lu</string>
+    <string name="resolved">Résolu</string>
+    <string name="completed">Terminé</string>
+    <string name="operation">Opération</string>
+    <string name="scheduled_shutdown">Arrêt programmé</string>
+    <string name="alert_journal">Journal des alertes</string>
+    <string name="help_support">AIDE ET ASSISTANCE</string>
+    <string name="logout">DÉCONNEXION</string>
+
+    <string name="overvoltage">Surtension</string>
+    <string name="battery_level_good_msg">Votre niveau de batterie est bon</string>
+    <string name="pv_levels_low_msg">Les niveaux de vos PV sont bas</string>
+    <string name="unread_alerts_count">Alertes non lues : 3</string>
+    <string name="critical_incidents">Incidents critiques (7j) : 1</string>
+    <string name="pending_maintenances">Maintenances en attente : 2</string>
+
+    <!-- Subscriptions -->
+    <string name="subscriptions">Abonnements</string>
+    <string name="choose_plan">Choisissez votre formule</string>
+    <string name="monthly">Mensuel</string>
+    <string name="yearly">Annuel</string>
+    <string name="subscribe">S abonner</string>
+
+    <!-- Pump UI enhancements -->
+    <string name="pump_online">En ligne</string>
+    <string name="performance">Performance</string>
+    <string name="controls">Contrôles</string>
+    <string name="start">Démarrer</string>
+    <string name="stop">Arrêter</string>
+</resources>
+
